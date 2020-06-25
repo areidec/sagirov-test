@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1C1C1C;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 47px;
+  line-height: 55px;
+}
+
+p {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.form {
+  
+  &__title {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+
+  &__under-title {
+    text-align: center;
+    margin-bottom: 98px;
+  }
+
+  &__control {
+    position: relative;
+    margin-bottom: 35px;
+  }
+
+  &__submit {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__footer {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+label {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: transform .15s ease;
+}
+
+.under-line {
+  width: 100%;
+  position: absolute;
+  height: 1px;
+  background-color: #DEDEDE;
+  bottom: 0;
+  left: 0;
+
+  &::before {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #1C1C1C;
+    content: "";
+    position: absolute;
+    transition: width .3s;
+  }
+}
+
+input, label {
+  color: #939292;
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="tel"],
+input[type="email"] {
+  color: #000;
+  width: 374px;
+  padding: 9px 0;
+  border: none;
+  
+  &:focus {
+    outline: none;
+  }
+
+  &:focus ~ label {
+    transform: translateY(calc(-100% - 10px));
+  }
+
+  &:focus ~ .under-line::before {
+    width: 100%;
+  }
+
+  &.not-empty ~ label {
+    transform: translateY(calc(-100% - 10px));
+  }
+}
+
+.btn {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-rect {
+  padding: 12px 86px;
+  background-color: #DEDEDE;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 0.03em;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: #1C1C1C;
+  }
+}
+
+.password-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.checkbox {
+  position: relative;
+  cursor: pointer;
+  min-height: 19px;
+
+  input {
+    position: absolute;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    font-size: 12px;
+
+    &::before {
+      display: inline-block;
+      content: '';
+      position: relative;
+      width: 17px;
+      height: 17px;
+      border: 1px solid #DEDEDE;
+      margin-right: 13px;
+    }
+
+    &::after {
+      width: 11px;
+      height: 11px;
+      content: '';
+      display: block;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+      background-color: #000;
+      opacity: 0;
+    }
+  }
+
+  input:checked ~ label::after {
+    opacity: 1;
+  } 
+}
+
+a {
+  color:  #20201F;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.error {
+  color: tomato;
+  font-size: 12;
+  position: absolute;
+}
+
+input:-webkit-autofill {
+  box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+  -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+  box-shadow: 0 0 0 50px white inset;/*your box-shadow*/
+  -webkit-text-fill-color: #333;
+} 
+
+.page {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1) translateX(-50%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1) translateX(-50%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1) translateX(-50%);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9) translateX(-50%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.modal-window {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  
+  svg {
+    margin-bottom: 123px;
+  }
+}
+
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}
+
+@keyframes animateFill {
+  from {
+    fill: black;
+  }
+
+  to {
+    fill: green;
+  }
+}
+
+@keyframes moveIn {
+  from {
+    transform: scale(0) rotate(-45deg);
+  }
+
+  to {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+.animateSvg {
+  transform: scale(0) rotate(-45deg);
+  animation: moveIn .3s ease forwards;
+
+  path {
+    animation: animateFill 1s ease forwards;
+  }
+}
