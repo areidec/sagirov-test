@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sagirov-test/precache-manifest.89c6758ee141e623126f000547895da7.js"
+  "/sagirov-test/precache-manifest.38be44265869d0519188f6302142f314.js"
 );
 
 self.addEventListener('message', (event) => {
