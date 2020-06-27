@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/sagirov-test/build/static/css/main.3fbbf2af.chunk.css",
-    "main.js": "/sagirov-test/build/static/js/main.e140db44.chunk.js",
-    "main.js.map": "/sagirov-test/build/static/js/main.e140db44.chunk.js.map",
-    "runtime-main.js": "/sagirov-test/build/static/js/runtime-main.63f837c9.js",
-    "runtime-main.js.map": "/sagirov-test/build/static/js/runtime-main.63f837c9.js.map",
-    "static/js/2.ee31285c.chunk.js": "/sagirov-test/build/static/js/2.ee31285c.chunk.js",
-    "static/js/2.ee31285c.chunk.js.map": "/sagirov-test/build/static/js/2.ee31285c.chunk.js.map",
-    "index.html": "/sagirov-test/build/index.html",
-    "precache-manifest.798df05726ae100253c1639a83f020c5.js": "/sagirov-test/build/precache-manifest.798df05726ae100253c1639a83f020c5.js",
-    "service-worker.js": "/sagirov-test/build/service-worker.js",
-    "static/css/main.3fbbf2af.chunk.css.map": "/sagirov-test/build/static/css/main.3fbbf2af.chunk.css.map",
-    "static/js/2.ee31285c.chunk.js.LICENSE.txt": "/sagirov-test/build/static/js/2.ee31285c.chunk.js.LICENSE.txt"
+    "main.css": "/sagirov-test/static/css/main.3fbbf2af.chunk.css",
+    "main.js": "/sagirov-test/static/js/main.e140db44.chunk.js",
+    "main.js.map": "/sagirov-test/static/js/main.e140db44.chunk.js.map",
+    "runtime-main.js": "/sagirov-test/static/js/runtime-main.f2ea09e9.js",
+    "runtime-main.js.map": "/sagirov-test/static/js/runtime-main.f2ea09e9.js.map",
+    "static/js/2.ee31285c.chunk.js": "/sagirov-test/static/js/2.ee31285c.chunk.js",
+    "static/js/2.ee31285c.chunk.js.map": "/sagirov-test/static/js/2.ee31285c.chunk.js.map",
+    "index.html": "/sagirov-test/index.html",
+    "precache-manifest.89c6758ee141e623126f000547895da7.js": "/sagirov-test/precache-manifest.89c6758ee141e623126f000547895da7.js",
+    "service-worker.js": "/sagirov-test/service-worker.js",
+    "static/css/main.3fbbf2af.chunk.css.map": "/sagirov-test/static/css/main.3fbbf2af.chunk.css.map",
+    "static/js/2.ee31285c.chunk.js.LICENSE.txt": "/sagirov-test/static/js/2.ee31285c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.63f837c9.js",
+    "static/js/runtime-main.f2ea09e9.js",
     "static/js/2.ee31285c.chunk.js",
     "static/css/main.3fbbf2af.chunk.css",
     "static/js/main.e140db44.chunk.js"
