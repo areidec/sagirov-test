@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sagirov-test/static/css/main.3fbbf2af.chunk.css",
-    "main.js": "/sagirov-test/static/js/main.3a68eb5f.chunk.js",
-    "main.js.map": "/sagirov-test/static/js/main.3a68eb5f.chunk.js.map",
+    "main.js": "/sagirov-test/static/js/main.9f60f11a.chunk.js",
+    "main.js.map": "/sagirov-test/static/js/main.9f60f11a.chunk.js.map",
     "runtime-main.js": "/sagirov-test/static/js/runtime-main.f2ea09e9.js",
     "runtime-main.js.map": "/sagirov-test/static/js/runtime-main.f2ea09e9.js.map",
     "static/js/2.ee31285c.chunk.js": "/sagirov-test/static/js/2.ee31285c.chunk.js",
     "static/js/2.ee31285c.chunk.js.map": "/sagirov-test/static/js/2.ee31285c.chunk.js.map",
     "index.html": "/sagirov-test/index.html",
-    "precache-manifest.71a802921cb21ff9209f9b511499b2a8.js": "/sagirov-test/precache-manifest.71a802921cb21ff9209f9b511499b2a8.js",
+    "precache-manifest.0137df25bdd8d682b3fded049e5a4d8d.js": "/sagirov-test/precache-manifest.0137df25bdd8d682b3fded049e5a4d8d.js",
     "service-worker.js": "/sagirov-test/service-worker.js",
     "static/css/main.3fbbf2af.chunk.css.map": "/sagirov-test/static/css/main.3fbbf2af.chunk.css.map",
     "static/js/2.ee31285c.chunk.js.LICENSE.txt": "/sagirov-test/static/js/2.ee31285c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f2ea09e9.js",
     "static/js/2.ee31285c.chunk.js",
     "static/css/main.3fbbf2af.chunk.css",
-    "static/js/main.3a68eb5f.chunk.js"
+    "static/js/main.9f60f11a.chunk.js"
   ]
 }
