@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "959a478381dd7704cac233608f2c882f",
+    "revision": "3ffeab7cbfe0e57e10de5dadcb0b3249",
     "url": "/sagirov-test/index.html"
   },
   {
-    "revision": "2f8116eee543553bfefb",
+    "revision": "56eb8f8d5bbd58b9e67a",
     "url": "/sagirov-test/static/css/main.3fbbf2af.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sagirov-test/static/js/2.ee31285c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f8116eee543553bfefb",
-    "url": "/sagirov-test/static/js/main.6f2e3a60.chunk.js"
+    "revision": "56eb8f8d5bbd58b9e67a",
+    "url": "/sagirov-test/static/js/main.3a68eb5f.chunk.js"
   },
   {
     "revision": "3e9ff56ea87de935c9a6",
